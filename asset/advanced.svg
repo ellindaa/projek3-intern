@@ -1,0 +1,24 @@
+<svg width="33" height="32" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_i_901_4606)">
+<g clip-path="url(#clip0_901_4606)">
+<rect width="31.68" height="31.68" transform="translate(0.919922 0.270508)" fill="#358888"/>
+<path d="M14.4493 18.5665H10.6738C10.3898 18.5665 10.1797 18.4391 10.0434 18.1843C9.90717 17.9296 9.92679 17.6806 10.1023 17.4373L18.1905 5.69791C18.3104 5.53621 18.4602 5.42531 18.64 5.3652C18.8197 5.30511 18.9995 5.31441 19.1793 5.3931C19.3591 5.46465 19.5014 5.58486 19.6063 5.75372C19.7112 5.92259 19.7486 6.1029 19.7187 6.29464L18.7405 14.1016H23.3165C23.6262 14.1016 23.8445 14.2383 23.9715 14.5117C24.0985 14.785 24.0649 15.0433 23.8709 15.2866L14.9608 26.0085C14.8409 26.1588 14.6865 26.2565 14.4974 26.3016C14.3084 26.3466 14.1332 26.3298 13.972 26.2511C13.8036 26.1795 13.6734 26.0629 13.5814 25.9012C13.4893 25.7395 13.4548 25.5592 13.4776 25.3603L14.4493 18.5665Z" fill="white"/>
+</g>
+<path d="M1.41492 16.1105C1.41492 7.6357 8.28511 0.765508 16.7599 0.765508C25.2347 0.765508 32.1049 7.6357 32.1049 16.1105C32.1049 24.5853 25.2347 31.4555 16.7599 31.4555C8.28511 31.4555 1.41492 24.5853 1.41492 16.1105Z" stroke="#358888" stroke-width="0.99"/>
+</g>
+<defs>
+<filter id="filter0_i_901_4606" x="0.919922" y="-1.70949" width="31.6797" height="33.6599" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="-1.98"/>
+<feGaussianBlur stdDeviation="1.98"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.137255 0 0 0 0 0.533333 0 0 0 0 1 0 0 0 0.08 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_901_4606"/>
+</filter>
+<clipPath id="clip0_901_4606">
+<path d="M0.919922 16.1105C0.919922 7.36232 8.01173 0.270508 16.7599 0.270508C25.5081 0.270508 32.5999 7.36232 32.5999 16.1105C32.5999 24.8587 25.5081 31.9505 16.7599 31.9505C8.01173 31.9505 0.919922 24.8587 0.919922 16.1105Z" fill="white"/>
+</clipPath>
+</defs>
+</svg>

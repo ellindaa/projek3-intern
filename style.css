@@ -49,6 +49,9 @@ body{
 .sidebar-title img{
     filter: brightness(0) saturate(100%) invert(47%) sepia(37%) saturate(558%) hue-rotate(131deg) brightness(92%) contrast(96%);
 }
+.sidebar-title:hover{
+    transform: translateY(-2px);
+}
 .history{
     list-style: none;
     margin-bottom: auto;
@@ -61,6 +64,11 @@ body{
     padding: 8px;
     font-size: 0.7rem;
 }
+.list:hover{
+    background:#ffffff40;
+    color: #fff;
+    transform: translateY(3%);
+}
 
 .new-chat-btn {
     margin-top: auto;
@@ -70,6 +78,9 @@ body{
     border: none;
     border-radius: 8px;
   }
+.new-chat-btn:hover{
+    transform: translateY(-2px);
+}
 
 /* Main content */
 .content-main{
@@ -163,12 +174,17 @@ body{
     cursor: pointer;
     filter: brightness(0) saturate(100%) invert(47%) sepia(37%) saturate(558%) hue-rotate(131deg) brightness(92%) contrast(96%);
 }
+.nav-right img:hover{
+    transform: translateY(1px);
+}
 .menu{
     background: transparent;
     color: #358888;
     border: none;
 }
-
+.menu:hover{
+    transform: translateY(1px);
+}
 .welcome {
     text-align: center;
     height: 100%;

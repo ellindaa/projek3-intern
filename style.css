@@ -279,6 +279,7 @@ body{
     margin-top: 20px;
     flex-direction: row;
     gap: 10px;
+    width: 100%;
 }
 .setting-box{
     box-sizing: border-box;
@@ -306,7 +307,7 @@ body{
     padding:12px; 
 }
 .st{
-    gap: 8px;
+    gap: 14px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

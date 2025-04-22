@@ -29,7 +29,8 @@ body{
     flex-direction: column;
     gap: 16px;
 }
-.logo{
+.logo {
+    cursor: pointer;
     display: flex;
     justify-content: space-between;
     filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(194deg) brightness(101%) contrast(104%);
@@ -44,7 +45,6 @@ body{
     display: flex;
     align-items: center;
     gap: 8px;
-
 }
 .sidebar-title img{
     filter: brightness(0) saturate(100%) invert(47%) sepia(37%) saturate(558%) hue-rotate(131deg) brightness(92%) contrast(96%);
@@ -68,6 +68,7 @@ body{
     background:#ffffff40;
     color: #fff;
     transform: translateY(3%);
+    cursor: pointer;
 }
 
 .new-chat-btn {
@@ -80,6 +81,7 @@ body{
   }
 .new-chat-btn:hover{
     transform: translateY(-2px);
+    cursor: pointer;
 }
 
 /* Main content */
@@ -127,7 +129,6 @@ body{
     padding: 5px 8px;
     border-radius: 5px;
     transition: background-color 0.2s, color 0.2s;
-
 }
 .nav-btn-active {
     background-color: #358888;
@@ -160,6 +161,7 @@ body{
     color: #267d7d;
     background-color: rgba(53, 136, 136, 0.3);
     filter: brightness(0) saturate(100%) invert(39%) sepia(15%) saturate(897%) hue-rotate(131deg) brightness(93%) contrast(92%);
+    cursor: pointer;
 }
 
 .nav-right {
@@ -176,6 +178,7 @@ body{
 }
 .nav-right img:hover{
     transform: translateY(1px);
+    cursor: pointer;
 }
 .menu{
     background: transparent;
@@ -184,6 +187,7 @@ body{
 }
 .menu:hover{
     transform: translateY(1px);
+    cursor: pointer;
 }
 .welcome {
     text-align: center;
@@ -228,7 +232,6 @@ body{
     justify-content: center;
     gap: 16px;
     padding: 0 10px;
-
 }
 .app-card {
     padding: 14px;
@@ -244,10 +247,10 @@ body{
     justify-content: space-between;
     gap: 12px;
     border: 2px solid #f0f2f5;
-    
 }
 .app-card:hover {
     transform: translateY(-4px);
+    cursor: pointer;
 }
 .text-appcard h3 {
     font-size: 0.9rem;
@@ -267,4 +270,104 @@ body{
 }
 .logo-appcard-voice{
     filter: brightness(0) saturate(100%) invert(47%) sepia(37%) saturate(558%) hue-rotate(131deg) brightness(92%) contrast(96%);
+}
+
+.setting{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    flex-direction: row;
+    gap: 10px;
+}
+.setting-box{
+    box-sizing: border-box;
+    border: 2px solid #f0f2f5;
+    padding: 15px 50px 12px 18px;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 8px;
+    margin: 0;
+    width: 300px;
+}
+.set-title-box{
+    display: flex;
+}
+.set-title-box p{
+    font-size: 0.8rem;
+    box-sizing: border-box;
+    border:none;
+    border-radius: 6px;
+    background:rgba(53, 136, 136, 0.2);
+    color: #358888;
+    display: flex;
+    padding:12px; 
+}
+.button-setting{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.set-list-box {
+    display: flex;
+}
+.set-list-box p{
+    display: flex;
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 12px;
+    color: #358888;
+    padding: 2px;
+}
+.btn-setting{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 60%;
+    gap: 8px;
+}
+.set-btn{
+    box-sizing: border-box;
+    border: 2px solid #358888;
+    color: #358888;
+    border-radius: 20px;
+    padding: 8px 5px;
+}
+.set-btn-active{
+    box-sizing: border-box;
+    border: 2px solid #358888;
+    background: #358888;
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 8px 5px;
+}
+.set-act{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 0.8rem;
+    margin-top: auto;
+    border-top: 1px solid #e7e7e7;
+    padding: 12px;
+}
+.act{
+    box-sizing: border-box;
+    border:  2px solid #358888;
+    color: #358888;
+    border-radius: 12px;
+    display: flex;
+    padding: 8px ;
+    align-content: end;
+}
+.act-active{
+    box-sizing: border-box;
+    background: #358888;
+    border:2px solid #358888;
+    color: #ffffff;
+    border-radius: 12px;
+    display: flex;
+    padding: 8px ;
 }

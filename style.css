@@ -305,9 +305,15 @@ body{
     display: flex;
     padding:12px; 
 }
+.st{
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 .button-setting{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-between;
 }
 .set-list-box {

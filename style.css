@@ -428,7 +428,11 @@ body{
     border-radius: 8px;
     filter: brightness(0) saturate(100%) invert(39%) sepia(15%) saturate(897%) hue-rotate(131deg) brightness(93%) contrast(92%);
 }
-
+/* .doc-btn-top img.active {
+    background-color: #358888; 
+    border-color: #358888; 
+    filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(194deg) brightness(101%) contrast(104%); 
+} */
 .text-doc {
     display: flex;
     box-sizing: border-box;
@@ -479,7 +483,9 @@ body{
 .doc-top {
     display: flex;
     gap: 8px;
-    
+    padding-bottom: 12px;
+    border-bottom: 1px solid #e0e0e0; 
+    margin-bottom: 12px; 
 }
 .doc-top p {
     display: flex;
@@ -493,6 +499,14 @@ button.btn-doc-b {
     border-radius: 8px;
     padding: 8px;
     background: transparent;
+}
+button.btn-doc-b.active{
+    display: flex;
+    box-sizing: border-box;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 8px;
+    background: #358888;
 }
 .box-doc{
     display: flex;
@@ -521,8 +535,4 @@ button.btn-doc-b {
     width: 100%;
     box-sizing: border-box;
     height: 350px;
-}
-.txt-box-doc::placeholder {
-    color: #358888;
-    font-size: 14px;
 }

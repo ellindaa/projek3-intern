@@ -379,3 +379,71 @@ body{
     display: flex;
     padding: 8px ;
 }
+.document{
+    display: flex;
+}
+.content-doc-a {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    padding: 20px;
+    width: 60%;
+    margin: 20px;
+    border-radius: 8px;
+    gap: 8px;
+}
+.doc-btn-top{
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+}
+button.btn-top {
+    display: flex;
+    box-sizing: border-box;
+    border: 1px solid #358888;
+    border-radius: 10px;
+    background: #fff;
+    padding: 8px;
+    color: #358888;
+    font-size: 12px;
+}
+.doc-btn-top img {
+    box-sizing: border-box;
+    border: 1px solid #358888;
+    padding: 4px;
+    border-radius: 8px;
+    filter: brightness(0) saturate(100%) invert(39%) sepia(15%) saturate(897%) hue-rotate(131deg) brightness(93%) contrast(92%);
+}
+.text-doc {
+    display: flex;
+    box-sizing: border-box;
+    border: 1px solid #358888;
+    border-radius: 8px;
+    padding: 4px;
+    font-size: 11px;
+    justify-content: center;
+    color: black;
+}
+.doc-btn-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+.bottom-doc{
+    padding: 2px;
+}
+.content-doc-b {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    border-radius: 8px;
+    margin: 20px;
+    padding: 20px;
+}
+.doc-top{
+
+}
+.box-doc{
+
+}

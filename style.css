@@ -387,11 +387,10 @@ body{
 .document {
     display: flex;
     height: 100%;
-    width: 100%;
     justify-content: center;
-    align-content: center;
     gap: 20px;
     padding: 22px;
+    width: 100%;
 }
 .content-doc-a {
     display: flex;
@@ -401,6 +400,7 @@ body{
     padding: 20px;
     border-radius: 8px;
     gap: 12px;
+    width: 100%;
 }
 .doc-btn-top {
     display: flex;
@@ -466,7 +466,7 @@ body{
 .doc-btn-bottom {
     display: flex;
     gap: 20px;
-    height: 300px; 
+    height: 100px; 
     overflow-y: auto; 
     padding-right: 10px;
     scrollbar-width: thin;
@@ -481,7 +481,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 8px;
-    min-width: 200px;
+    width: 100%;
 }
 .bottom-doc {
     display: flex;
@@ -523,6 +523,7 @@ body{
     border: 1px solid #e7e7e7;
     border-radius: 8px;
     padding: 20px;
+    width: 100%;
 }
 .doc-top {
     display: flex;
@@ -530,11 +531,13 @@ body{
     padding-bottom: 12px;
     border-bottom: 1px solid #e0e0e0; 
     margin-bottom: 12px; 
+    justify-content: space-between;
 }
 .doc-top p {
     display: flex;
     font-size: 16px;
     padding: 5px 0px;
+    width:100%
 }
 button.btn-doc-b {
     display: flex;
@@ -556,7 +559,7 @@ button.btn-doc-b.active{
     display: flex;
     flex-direction: column;
     gap: 8px;
-    /* margin-bottom: auto; */
+    height: 100%;
     flex-wrap: wrap;
 }
 .box-doc p {
@@ -564,10 +567,10 @@ button.btn-doc-b.active{
     flex-direction: column;
     font-size: 16px;
     padding: 5px 0px;
-    gap: 12px;
+    margin: 0;
 }
 .txt-box-doc {
-    flex-grow: 1;
+    flex: 1;
     resize: none;
     border: 1px solid #358888;
     border-radius: 8px;
@@ -577,8 +580,8 @@ button.btn-doc-b.active{
     background-color: #fefefe;
     min-height: 0px;
     width: 100%;
+    height: 100%;
     box-sizing: border-box;
-    height: 350px;
 }
 /* document end */
 /* overview start */
@@ -586,7 +589,8 @@ button.btn-doc-b.active{
     display: flex;
     text-align: center;
     justify-content: center;
-    margin: 20px;
+    height: 100%;
+    padding: 18px;
     flex-direction: row;
     gap: 10px;
 }
@@ -612,8 +616,9 @@ button.btn-doc-b.active{
 button.ovw-head {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    padding: 8px;
+    justify-content: center;
+    padding: 6px;
+    text-align: center;
     box-sizing: border-box;
     border-radius: 8px;
     background: rgba(53, 136, 136, 0.2);
@@ -621,6 +626,20 @@ button.ovw-head {
     color: #358888;
     font-size: 12px;
 }
+button.ovw-head.act {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background: #ffffff;
+    border: 1px solid #358888;
+    color: #358888;
+    font-size: 12px;
+    font-style: italic;
+}
+
 .btn-ovw-center{
     display: flex;
     flex-direction: column;

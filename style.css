@@ -189,6 +189,7 @@ body{
     transform: translateY(1px);
     cursor: pointer;
 }
+/* welcome start*/
 .welcome {
     text-align: center;
     height: 100%;
@@ -271,7 +272,9 @@ body{
 .logo-appcard-voice{
     filter: brightness(0) saturate(100%) invert(47%) sepia(37%) saturate(558%) hue-rotate(131deg) brightness(92%) contrast(96%);
 }
+/* welcome end */
 
+/* setting start */
 .setting{
     display: flex;
     text-align: center;
@@ -379,6 +382,8 @@ body{
     display: flex;
     padding: 8px ;
 }
+/* setting end */
+/* document start */
 .document {
     display: flex;
     margin: auto;
@@ -536,3 +541,138 @@ button.btn-doc-b.active{
     box-sizing: border-box;
     height: 350px;
 }
+/* document end */
+/* overview start */
+.overview{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+    flex-direction: row;
+    gap: 10px;
+}
+.overview-box{
+    box-sizing: border-box;
+    border: 2px solid #f0f2f5;
+    padding: 20px;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 8px;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+.btn-ovw-head {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e0e0e0; 
+    padding-bottom: 18px;
+}
+button.ovw-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background: rgba(53, 136, 136, 0.2);
+    border: none;
+    color: #358888;
+    font-size: 12px;
+}
+.btn-ovw-center{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+}
+.ovw-center-up {
+    display: flex;
+    gap: 16px;
+}
+button.ovw-reset {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border: none;
+    background: #358888;
+    color: #ffffff;
+    padding: 6px;
+    font-size: 12px;
+    border-radius: 6px;
+}
+.ovw-center-bottom{
+    display: flex;
+    gap: 16px;
+}
+.btn-ovw-list {
+    height: 300px; 
+    width: 100%; 
+    overflow: hidden; 
+    flex-grow: 1;
+    min-height: 0;
+    margin-top: auto;
+}
+  
+.ovw-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    height: 100%; 
+    overflow-y: auto; 
+    padding-right: 8px; 
+    scrollbar-width: thin; 
+    scrollbar-color: #358888 #f1f1f1;
+}
+.ovw-list::-webkit-scrollbar {
+    width: 6px;   
+}
+.ovw-list::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 3px;
+    margin: 4px 0;
+}
+.ovw-list::-webkit-scrollbar-thumb {
+    background: #358888;
+    border-radius: 3px;
+    border: 1px solid rgba(255,255,255,0.2); 
+}
+.ovw-list::-webkit-scrollbar-thumb:hover {
+    background: #2a6d6d; 
+}
+.ovw-list-scr {
+    white-space: nowrap;
+    padding: 8px 16px;
+    border: 1px solid #358888;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 18px;
+    background: transparent;
+    color: #358888;
+    font-size: 12px;
+    transition: all 0.2s ease; 
+}  
+.ovw-list-scr:hover {
+    background-color: #358888;
+    color: white;
+}
+.ovw-list-scr.active {
+    white-space: nowrap;
+    padding: 8px 16px;
+    border: 1px solid #358888;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 18px;
+    background: #358888;
+    color: #ffffff;
+    font-size: 12px;
+    transition: all 0.2s ease; 
+}
+/* overview end */

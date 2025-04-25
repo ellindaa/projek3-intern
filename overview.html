@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pondok Indah AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- sidebar start -->
+        <aside class="sidebar" id="sidebar">
+            <div class="logo">
+                <img src="asset/layout-sidebar.svg" alt="layout-sidebar">
+                <img src="asset/gear-fill.svg" alt="setting">
+            </div>
+            <div class="sidebar-title"><img src="asset/grid.svg" alt="grid">Fitur Apps</div>
+            <ul class="history">
+                <li>
+                    <p>Today</p>
+                    <ul class="list" id="today">
+                        <li>History percakapan 1 </li>
+                    </ul>
+                </li>
+                <li>
+                   <p>Yesterday</p>
+                   <ul class="list" id="yesterday">
+                        <li>History percakapan 1 </li>
+                    </ul>
+                </li>
+                <li>
+                    <p>Previous 7 Days</p>
+                    <ul class="list" id="7days">
+                        <li>History percakapan 1 </li>
+                    </ul>
+                </li>
+                <li>
+                    <p>Previous 30 Days</p>
+                    <ul class="list" id="30days">
+                        <li>History percakapan 1 </li>
+                    </ul>
+                </li>
+            </ul>
+            <button class="new-chat-btn">+ Start new chat</button>
+        </aside>
+        <!-- sidebar end -->
+
+        <!-- main content start -->
+        <main class="content-main">
+            <!-- navbar start -->
+            <header class="top-nav">
+                <div class="nav-left">
+                    <img src="asset/pondok-indah-logo.png" alt="logo" class="logo-nav">
+                </div>
+                <div class="nav-button">
+                    <button class="nav-btn"><img src="asset/chat.svg" alt="chat">Chat</button>
+                    <button class="nav-btn"><img src="asset/file-earmark-text.svg" alt="file">Documents</button>
+                    <button class="nav-btn-active"><img src="asset/broadcast.svg" alt="overview">Overview</button>
+                    <button class="nav-btn"><img src="asset/search.svg" alt="search">RAG</button>
+                </div>
+                <div class="nav-right">
+                    <img src="asset/bell.svg" alt="notifikasi">
+                    <img src="asset/moon-fill.svg" alt="mode">
+                    <img src="asset/person-circle.svg" alt="">
+                    <button class="menu"> Menu </button>
+                </div>
+            </header>
+            <!-- navbar end -->
+            <!-- section start -->
+            <div class="overview">
+                <div class="overview-box">
+                    <div class="btn-ovw-head">
+                        <button class="ovw-head">Admin Console</button>
+                        <button class="ovw-head">Weaviate</button>
+                        <button class="ovw-head">Milvus</button>
+                        <button class="ovw-head">Qdrant</button>
+                    </div>
+                    <div class="btn-ovw-center">
+                        <div class="ovw-center-up">
+                            <button class="ovw-reset">Reset Lyana</button>
+                            <button class="ovw-reset">Reset Cache</button>
+                            <button class="ovw-reset">Reset Config</button>
+                        </div>
+                        <div class="ovw-center-bottom">
+                            <button class="ovw-reset">Reset Documents</button>
+                            <button class="ovw-reset">Reset Suggestion</button>
+                        </div>
+                    </div>
+                    <div class="btn-ovw-list">
+                        <div class="ovw-list">
+                            <button class="ovw-list-scr">VERBA_Chunk_MiniLM 25000</button>
+                            <button class="ovw-list-scr">VERBA_Chunk_text2vec_opneai 8115</button>
+                            <button class="ovw-list-scr">VERBA_Chunk_Ollama 4500</button>
+                            <button class="ovw-list-scr">VERBA_Document_Ollama100</button>
+                            <button class="ovw-list-scr">VERBA_Cache_Ollama 50</button>
+                            <button class="ovw-list-scr">VERBA_Suggestion 3</button>
+                            <button class="ovw-list-scr">VERBA_Chunk_MiniLM 25000</button>
+                            <button class="ovw-list-scr">VERBA_Chunk_text2vec_opneai 8115</button>
+                            <button class="ovw-list-scr">VERBA_Chunk_Ollama 4500</button>
+                            <button class="ovw-list-scr">VERBA_Document_Ollama100</button>
+                            <button class="ovw-list-scr">VERBA_Cache_Ollama 50</button>
+                            <button class="ovw-list-scr">VERBA_Suggestion 3</button>
+                            <button class="ovw-list-scr">VERBA_Chunk_MiniLM 25000</button>
+                            <button class="ovw-list-scr">VERBA_Chunk_text2vec_opneai 8115</button>
+                            <button class="ovw-list-scr">VERBA_Chunk_Ollama 4500</button>
+                            <button class="ovw-list-scr">VERBA_Document_Ollama100</button>
+                            <button class="ovw-list-scr">VERBA_Cache_Ollama 50</button>
+                            <button class="ovw-list-scr">VERBA_Suggestion 3</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="overview-box">
+                    <div class="btn-ovw-head">
+                        <button class="ovw-head">Libraries</button>
+                    </div>
+                    <div class="ovw-list">
+                        <button class="ovw-list-scr active">accelerate</button>
+                        <button class="ovw-list-scr active">openai</button>
+                        <button class="ovw-list-scr active">pypdf</button>
+                        <button class="ovw-list-scr active">tiktoken</button>
+                        <button class="ovw-list-scr active">torch</button>
+                        <button class="ovw-list-scr active">transformers</button>
+                        <button class="ovw-list-scr">vertexAI</button>
+                    </div>
+                </div>
+                <div class="overview-box">
+                    <div class="btn-ovw-head">
+                        <button class="ovw-head">Variables</button>
+                    </div>
+                    <div class="btn-ovw-list">
+                        <div class="ovw-list">
+                            <button class="ovw-list-scr active">OLLAMA_EMBED_MODEL</button>
+                            <button class="ovw-list-scr active">OLLAMA_MODEL</button>
+                            <button class="ovw-list-scr active">OLLAMA_URL</button>
+                            <button class="ovw-list-scr active">OPENAI_API_KEY</button>
+                            <button class="ovw-list-scr active">UNSTRUCTURED_API_KEY</button>
+                            <button class="ovw-list-scr active">WEAVIATE_URL_VERBA</button>
+                            <button class="ovw-list-scr">AZURE_OPENAI_EMBEDDING_MODEL</button>
+                            <button class="ovw-list-scr">AZURE_OPENAI_RESOURCE_NAME</button>
+                            <button class="ovw-list-scr">COHERE_API_KEY</button>
+                            <button class="ovw-list-scr">OLLAMA_EMBED_MODEL</button>
+                            <button class="ovw-list-scr">OLLAMA_MODEL</button>
+                            <button class="ovw-list-scr">OLLAMA_URL</button>
+                            <button class="ovw-list-scr">OPENAI_API_KEY</button>
+                            <button class="ovw-list-scr">UNSTRUCTURED_API_KEY</button>
+                            <button class="ovw-list-scr">WEAVIATE_URL_VERBA</button>
+                            <button class="ovw-list-scr">AZURE_OPENAI_EMBEDDING_MODEL</button>
+                            <button class="ovw-list-scr">AZURE_OPENAI_RESOURCE_NAME</button>
+                            <button class="ovw-list-scr">COHERE_API_KEY</button>
+                            <button class="ovw-list-scr">OLLAMA_EMBED_MODEL</button>
+                            <button class="ovw-list-scr">OLLAMA_MODEL</button>
+                            <button class="ovw-list-scr">OLLAMA_URL</button>
+                            <button class="ovw-list-scr">OPENAI_API_KEY</button>
+                            <button class="ovw-list-scr">UNSTRUCTURED_API_KEY</button>
+                            <button class="ovw-list-scr">WEAVIATE_URL_VERBA</button>
+                            <button class="ovw-list-scr">AZURE_OPENAI_EMBEDDING_MODEL</button>
+                            <button class="ovw-list-scr">AZURE_OPENAI_RESOURCE_NAME</button>
+                            <button class="ovw-list-scr">COHERE_API_KEY</button>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+            <!-- section end -->
+        </main>
+        <!-- main content end -->
+    </div>
+</body>
+</html>

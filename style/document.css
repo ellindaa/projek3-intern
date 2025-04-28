@@ -162,6 +162,7 @@ button.btn-doc-b {
     border-radius: 8px;
     padding: 8px;
     background: transparent;
+    height: fit-content;
 }
 button.btn-doc-b.active{
     display: flex;
@@ -170,6 +171,7 @@ button.btn-doc-b.active{
     border-radius: 8px;
     padding: 8px;
     background: #358888;
+    height: fit-content;
 }
 .box-doc{
     display: flex;

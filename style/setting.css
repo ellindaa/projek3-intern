@@ -1,0 +1,108 @@
+/* setting start */
+.setting{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+    flex-direction: row;
+    gap: 10px;
+}
+.setting-box{
+    box-sizing: border-box;
+    border: 2px solid #f0f2f5;
+    padding: 20px;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 8px;
+    margin: 0;
+    width: 100%;
+}
+.set-title-box{
+    display: flex;
+}
+.set-title-box p{
+    font-size: 0.8rem;
+    box-sizing: border-box;
+    border:none;
+    border-radius: 6px;
+    background:rgba(53, 136, 136, 0.2);
+    color: #358888;
+    display: flex;
+    padding:12px; 
+}
+.st{
+    gap: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.button-setting{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+}
+.set-list-box {
+    display: flex;
+}
+.set-list-box p{
+    display: flex;
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 12px;
+    color: #358888;
+    padding: 2px;
+}
+.btn-setting{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 60%;
+    gap: 8px;
+}
+.set-btn{
+    box-sizing: border-box;
+    border: 2px solid #358888;
+    color: #358888;
+    border-radius: 20px;
+    padding: 8px 5px;
+    width: 85%
+}
+.set-btn.active{
+    box-sizing: border-box;
+    border: 2px solid #358888;
+    background: #358888;
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 8px 5px;
+}
+.set-act{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 0.8rem;
+    margin-top: auto;
+    border-top: 1px solid #e7e7e7;
+    padding: 12px;
+}
+.act{
+    box-sizing: border-box;
+    border:  2px solid #358888;
+    color: #358888;
+    border-radius: 12px;
+    display: flex;
+    padding: 8px ;
+    align-content: end;
+}
+.act-active{
+    box-sizing: border-box;
+    background: #358888;
+    border:2px solid #358888;
+    color: #ffffff;
+    border-radius: 12px;
+    display: flex;
+    padding: 8px ;
+}
+/* setting end */

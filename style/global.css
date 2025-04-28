@@ -1,0 +1,186 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #ffffff;
+    color: #000000;
+    width: 100%;
+    display: flex;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+/* Sidebar */
+.sidebar{
+    background-color: #358888;
+    color: #ffffff;
+    width: 16%;
+    padding: 20px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.logo {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(194deg) brightness(101%) contrast(104%);
+}
+.sidebar-title{
+    background: #fff;
+    color: #358888;
+    padding: 8px;
+    border: none;
+    border-radius:8px ;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.sidebar-title img{
+    filter: brightness(0) saturate(100%) invert(47%) sepia(37%) saturate(558%) hue-rotate(131deg) brightness(92%) contrast(96%);
+}
+.sidebar-title:hover{
+    transform: translateY(-2px);
+}
+.history{
+    list-style: none;
+    margin-bottom: auto;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 2.5;
+}
+.list{
+    color: #ffffff;
+    list-style: none;
+    padding: 8px;
+    font-size: 0.7rem;
+}
+.list:hover{
+    background:#ffffff40;
+    color: #fff;
+    transform: translateY(3%);
+    cursor: pointer;
+}
+.new-chat-btn {
+    margin-top: auto;
+    background: #fff;
+    color: #358888;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+  }
+.new-chat-btn:hover{
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+
+/* Main content */
+.content-main{
+    width: 84%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.top-nav {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:#35888840;
+    padding: 10px 20px;
+    height: 40px;
+}
+.nav-left {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+.logo-nav {
+    width: 100px;
+}
+.nav-button {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 6px;
+}
+.nav-btn {
+    background: rgba(53, 136, 136, 0.2);
+    border: none;
+    font-size: 13px;
+    color: #358888;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    box-sizing: border-box;
+    padding: 5px 8px;
+    border-radius: 5px;
+    transition: background-color 0.2s, color 0.2s;
+}
+.nav-btn-active {
+    background-color: #358888;
+    border: none;
+    font-size: 13px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    box-sizing: border-box;
+    padding: 5px 8px;
+    border-radius: 5px;
+}
+.nav-btn-active img{
+    width: 18px;
+    height: 18px;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(194deg) brightness(101%) contrast(104%);
+
+}
+.nav-btn img {
+    width: 18px;
+    height: 18px;
+    transition: filter 0.2s;
+    filter: brightness(0) saturate(100%) invert(47%) sepia(37%) saturate(558%) hue-rotate(131deg) brightness(92%) contrast(96%);    
+}
+
+.nav-btn:hover {
+    color: #267d7d;
+    background-color: rgba(53, 136, 136, 0.3);
+    filter: brightness(0) saturate(100%) invert(39%) sepia(15%) saturate(897%) hue-rotate(131deg) brightness(93%) contrast(92%);
+    cursor: pointer;
+}
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.nav-right img {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    filter: brightness(0) saturate(100%) invert(47%) sepia(37%) saturate(558%) hue-rotate(131deg) brightness(92%) contrast(96%);
+}
+.nav-right img:hover{
+    transform: translateY(1px);
+    cursor: pointer;
+}
+.menu{
+    background: transparent;
+    color: #358888;
+    border: none;
+}
+.menu:hover{
+    transform: translateY(1px);
+    cursor: pointer;
+}
